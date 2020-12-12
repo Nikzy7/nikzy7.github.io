@@ -17,4 +17,4 @@ setInterval(() => {
         el.innerHTML = toWrite;
         index = index+1;
     }
-},100);
+},60);
