@@ -8,3 +8,35 @@
 .socials{
     padding : 20px;
 }
+
+.fab{
+    color : rgb(77, 75, 75);
+}
+
+.fa-github:hover,.fa-dev:hover{
+    color: black;
+}
+
+.fa-hackerrank:hover{
+    color : rgb(32, 226, 32);
+}
+
+.fa-linkedin:hover{
+    color : rgb(14, 120, 170);
+}
+
+.fa-instagram:hover{
+    color : rgb(182, 5, 182);
+}
+
+.fa-twitter:hover{
+    color : rgb(59, 59, 243);
+}
+
+.fa-facebook:hover{
+    color : rgb(66, 104, 179);
+}
+
+.fa-twitter:hover{
+    color : rgb(0, 172, 238);
+}
