@@ -1,6 +1,8 @@
+// code to handle the position typewriter effect
+
 let el = document.querySelector(".typewriter");
 
-var data = "Incoming SDE Intern at Walmart Global Tech India";
+var data = "Incoming SDE Intern at Walmart Global Tech India.";
 
 var index = 0;
 setInterval(() => {
