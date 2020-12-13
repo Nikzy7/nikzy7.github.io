@@ -3,6 +3,11 @@
     src : url(/assets/fonts/typewriter2.ttf);
 }
 
+.navigation{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
 .main-name{
     font-family: 'Langar', cursive;
 }
