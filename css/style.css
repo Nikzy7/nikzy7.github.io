@@ -1,3 +1,16 @@
+@font-face{
+    font-family : typewriter;
+    src : url(/assets/fonts/typewriter2.ttf);
+}
+
+.main-name{
+    font-family: 'Langar', cursive;
+}
+
+.typewriter,.bio{
+    font-family : 'typewriter',arial;
+}
+
 .social-links{
     align-items: center;
     display: flex;
