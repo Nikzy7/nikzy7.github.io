@@ -8,6 +8,11 @@
     font-size: 20px;
 }
 
+.nav-item:hover{
+    clip-path: ellipse(50% 42% at 50% 50%);
+    background: rgb(49, 52, 228);
+}
+
 .main-name{
     font-family: 'Langar', cursive;
 }
