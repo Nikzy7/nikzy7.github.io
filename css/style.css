@@ -1,5 +1,5 @@
 .intro{
-    padding: 6.7em 0.7em;
+    padding: 4.7em 3.7em;
 }
 
 @font-face{
@@ -31,7 +31,7 @@
     font-family : 'typewriter',arial;
 }
 
-.social-links,#about-header{
+#about-header{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@
 }
 
 .fab{
-    color : rgb(77, 75, 75);
+    color : white;
 }
 
 .fa-github:hover,.fa-dev:hover{
@@ -74,10 +74,10 @@
     color : rgb(0, 172, 238);
 }
 
-#social-header{
+#under-construction{
     text-align : center;
 }
 
-#under-construction{
-    text-align : center;
+.about-info{
+    background-color: rgb(184, 255, 247);
 }
