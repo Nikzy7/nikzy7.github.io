@@ -1,11 +1,20 @@
+.cards{
+  background-color : rgb(16,14,23);
+  align-items : right;
+  color : white;
+  text-align: center;
+}
+
+#card-header{
+  padding : 25px;
+}
+
+
 .container {
-    /* position: absolute;
-    height: 300px;
-    width: 600px;
-    top: 60px;
-    left: calc(50% - 300px); */
-    align-items : center;
+    align-items : right;
+    left: calc(50% - 300px);
     display: flex;
+    background-color:rgb(16,14,23)
   }
   
   .card {
