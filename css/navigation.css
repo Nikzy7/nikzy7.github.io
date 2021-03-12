@@ -1,0 +1,8 @@
+.navigation{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+    background: rgb(141, 145, 142);
+}
