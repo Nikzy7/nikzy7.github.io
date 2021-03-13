@@ -6,3 +6,24 @@
 .nav-item:hover{
     background: rgb(141, 145, 142);
 }
+
+.left-container{
+    background-color: rgb(26, 26, 26);
+    background-image: url(../assets/images/wmtest.png);
+    background-size: 100% 100%;
+    background-position: center center;
+ }
+
+.middle-container{
+    background-color: rgb(36, 32, 32);
+    background-image: url(../assets/images/eh.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.right-container{
+    background-color: rgb(26, 26, 26);
+    background-image: url(../assets/images/cgc.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
