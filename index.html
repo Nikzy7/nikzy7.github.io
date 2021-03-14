@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
     <title>Apoorv Negi | Portfolio</title>
+
+    <!-- Materialize CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <script src="https://kit.fontawesome.com/e5efaf1dce.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
@@ -23,7 +30,8 @@
     <link rel="stylesheet" href="css/intro.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/experience.css">
-    <link rel="stylesheet" href="css/achievements.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <!-- <link rel="stylesheet" href="css/cards.css"> -->
 
 </head>
 <body>
@@ -137,20 +145,71 @@
               <br>
               <br>
 
-            </div>
+          </div>
         </div>
         <br>
         <br>
       </div>
     </div>
 
-    <div class="achievements">
+    <div class="projects">
       <br>
-      <h3 style="text-align: center;">🏆 Achievements 🏆</h3>
+      <h3 style="text-align: center;">👨‍💻 &nbsp;&nbsp; Projects &nbsp;&nbsp; 👨‍💻</h3>
+      <br>
 
-      <br>
-      <h2 style="text-align: center;"> Portfolio Still Under Construction ! 😅</h2><br><br>
+      <div class="container card-container">
+
+        <div class="row">
+
+          <div class="col">
+            <div class="card medium grey">
+              <a class="btn-floating halfway-fab waves-effect waves-light purple" title="Get the source code !" href="https://github.com/Nikzy7/Covid-Face-Mask-Detector"><i class="material-icons">code</i></a>
+              <div class="card-image">
+                <img src="assets/images/faceMask2.gif">
+              </div>
+              <div class="card-content">
+                <h5>COVID-19 Face Mask Detector</h5>
+                <p>Mobilenet SSD v2 based binary mask classifier. Smaller architecture even though being a core 
+                  Machine Learning project allows portability ro Edge-IoT devices</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col">
+            <div class="card medium grey">
+              <a class="btn-floating halfway-fab waves-effect waves-light purple" title="Sorry! Haven't Open Sourced it !"><i class="material-icons">code_off</i></a>
+              <div class="card-image">
+                <img src="assets/images/supervision.gif">
+              </div>
+              <div class="card-content">
+                <h5>SuperVision : AEBS</h5>
+                <p>A pedestrian detection based Automatic Emergency Braking System developed under the guidance of engineers from Bosch and Mahindra & Mahindra</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card medium grey">
+              <a class="btn-floating halfway-fab waves-effect waves-light purple" title="Get the source code !" href="https://github.com/Nikzy7/amongus-moderator"><i class="material-icons">code</i></a>
+              <div class="card-image">
+                <img src="assets/images/imposter.gif">
+              </div>
+              <div class="card-content">
+                <h5>Among Us Moderator</h5>
+                <p>A Discord bot and Webhook based system to act as a moderator to players having fun on Among Us !</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
+
+    <h2 style="text-align: center;"> Portfolio Still Under Construction ! 😅</h2><br><br>
 
     <script src="js/typewriter.js"></script>
     
