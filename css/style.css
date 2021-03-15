@@ -5,3 +5,8 @@ body{
 p{
     text-align: justify;
 }
+
+.footer{
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
